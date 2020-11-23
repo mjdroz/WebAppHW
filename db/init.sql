@@ -6,12 +6,12 @@ CREATE TABLE IF NOT EXISTS mlbPlayers (
     `plName` VARCHAR(19) CHARACTER SET utf8,
     `plTeam` VARCHAR(6) CHARACTER SET utf8,
     `plPosition` VARCHAR(20) CHARACTER SET utf8,
-    `plHieght` INT,
+    `plHeight` INT,
     `plWeight` VARCHAR(4) CHARACTER SET utf8,
     `plAge` NUMERIC(4, 2),
     PRIMARY KEY (`id`)
 );
-INSERT INTO mlbPlayers (plName,plTeam, plPosition, plHieght, plWeight, plAge) VALUES
+INSERT INTO mlbPlayers (plName,plTeam, plPosition, plHeight, plWeight, plAge) VALUES
     ('Jackie Robinson', 'LAD', 'Second Base', 71, '204', 53),
     ('Adam Donachie',' "BAL"',' "Catcher"', 74,' 180', 22.99),
     ('Sendy Rleal',' "BAL"',' "Relief Pitcher"', 73,' 180', 26.69),
