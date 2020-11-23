@@ -3,12 +3,12 @@ use playerData;
 
 CREATE TABLE IF NOT EXISTS mlbPlayers (
     `id` INT AUTO_INCREMENT,
-    `Name` VARCHAR(19) CHARACTER SET utf8,
-    `Team` VARCHAR(6) CHARACTER SET utf8,
-    `Position` VARCHAR(20) CHARACTER SET utf8,
-    `Height_inches` INT(2),
-    `Weight_lbs` VARCHAR(4) CHARACTER SET utf8,
-    `Age` NUMERIC(4, 2)
+    `plName` VARCHAR(19) CHARACTER SET utf8,
+    `plTeam` VARCHAR(6) CHARACTER SET utf8,
+    `plPosition` VARCHAR(20) CHARACTER SET utf8,
+    `plHieght` INT(2),
+    `plWeight` VARCHAR(4) CHARACTER SET utf8,
+    `plAge` NUMERIC(4, 2)
     PRIMARY KEY (`id`)
 );
 INSERT INTO mlbPlayers (plName,plTeam, plPosition, plHieght, plWeight, plAge) VALUES
