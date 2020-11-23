@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS mlbPlayers (
     PRIMARY KEY (`id`)
 );
 INSERT INTO mlbPlayers (plName,plTeam, plPosition, plHieght, plWeight, plAge) VALUES
+    ('Jackie Robinson', 'LAD', 'Second Base', 71, '204', 53),
     ('Adam Donachie',' "BAL"',' "Catcher"', 74,' 180', 22.99),
     ('Sendy Rleal',' "BAL"',' "Relief Pitcher"', 73,' 180', 26.69),
     ('Jeremy Guthrie',' "BAL"',' "Relief Pitcher"', 73,' 200', 27.9),
@@ -64,7 +65,6 @@ INSERT INTO mlbPlayers (plName,plTeam, plPosition, plHieght, plWeight, plAge) VA
     ('Wade Miller',' "CHC"',' "Starting Pitcher"', 74,' 220', 30.46),
     ('Dana Eveland',' "ARZ"',' "Starting Pitcher"', 73,' 250', 23.34),
     ('Brandon Medders',' "ARZ"',' "Relief Pitcher"', 73,' 191', 27.09),
-    ('Tony Pe?a',' "ARZ"',' "Relief Pitcher"', 74,' 190', 25.14),
     ('Joe Borchard',' "FLA"',' "Outfielder"', 77,' 220', 28.26),
     ('Alfredo Amezaga',' "FLA"',' "Outfielder"', 70,' 165', 29.12),
     ('Ricky Nolasco',' "FLA"',' "Starting Pitcher"', 74,' 220', 24.21),
